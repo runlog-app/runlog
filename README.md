@@ -6,7 +6,7 @@ A free, offline dashboard for your own running. Upload your Strava or Garmin exp
 
 **Windows: an icon on your desktop that keeps itself up to date**
 
-1. Download [Install-RunLog.cmd](https://github.com/runlog-app/runlog/raw/main/Install-RunLog.cmd) and double-click it.
+1. Download [Install-RunLog-Windows.zip](https://github.com/runlog-app/runlog/raw/main/Install-RunLog-Windows.zip), open it and double-click **Install-RunLog.cmd** inside.
 2. Windows may say "Windows protected your PC" because the file is new. Click **More info**, then **Run anyway**.
 3. A RunLog icon appears on your desktop and in the Start menu, and RunLog opens.
 
@@ -14,8 +14,8 @@ Each time you click the icon it checks for a new version (a second or two), down
 
 **Mac**
 
-1. Download [RunLog.command](https://github.com/runlog-app/runlog/raw/main/RunLog.command) and move it somewhere handy (Applications or the desktop).
-2. The first time, right-click it and choose **Open**, then **Open** again (macOS asks once because the file is new). If it says it can't be run, open Terminal and type `chmod +x ` followed by dragging the file in, then Enter.
+1. Download [RunLog-Mac.zip](https://github.com/runlog-app/runlog/raw/main/RunLog-Mac.zip), open it, and move **RunLog.command** somewhere handy (Applications or the desktop).
+2. The first time, right-click it and choose **Open**, then **Open** again (macOS asks once because the file is new).
 3. After that, double-click it to update and open RunLog.
 
 **Just the file**

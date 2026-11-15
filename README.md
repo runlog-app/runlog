@@ -20,7 +20,7 @@ Each time you click the icon it checks for a new version (a second or two), down
 
 **Just the file**
 
-Download [RunLog.html](https://github.com/runlog-app/runlog/raw/main/RunLog.html) and open it in Chrome or Edge. It works on Android Chrome too. iPhone can't open a local HTML file.
+Right-click [RunLog.html](https://github.com/runlog-app/runlog/raw/main/RunLog.html) and choose Save link as (on Android, long-press it and choose Download link), then open the saved file in Chrome or Edge. iPhone can't open a local HTML file.
 
 ## Your data
 

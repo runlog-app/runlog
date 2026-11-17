@@ -1,41 +1,39 @@
 # RunLog
 
-A free, offline dashboard for your own running. Upload your Strava or Garmin export (or a spreadsheet), log runs and gym sessions, and see what your training says, with every number explained. No account, no server: your data stays in your browser.
+A free running dashboard for your own running. Upload your Strava or Garmin export (or a spreadsheet), log runs and gym sessions, and see what your training says, with every number explained. No account, no server: your data stays on your device.
 
-## Get it
+## Open it
 
-**Windows: an icon on your desktop that keeps itself up to date**
+**[runlog-app.github.io/runlog](https://runlog-app.github.io/runlog/)**
 
-1. Download [Install-RunLog-Windows.zip](https://github.com/runlog-app/runlog/raw/main/Install-RunLog-Windows.zip), open it and double-click **Install-RunLog.cmd** inside.
-2. Windows may say "Windows protected your PC" because the file is new. Click **More info**, then **Run anyway**.
-3. RunLog and RunLog Coach icons appear on your desktop and in the Start menu, and RunLog opens. If you saved RunLog files yourself before (on the desktop or in Downloads or Documents), the installer offers to move them into the RunLog folder so only the up-to-date apps are left. Your data stays: it lives in your browser, not in those files.
+Works in Chrome and Edge on any computer (work laptops too), and on Android and iPhone. To get an icon and its own window, install it:
 
-Each time you click the icon it checks for a new version (a second or two), downloads it if there is one, and opens RunLog in its own window. Without internet it opens the version you have.
+- **Computer (Chrome or Edge):** click the install icon at the right end of the address bar, or the browser's menu, then *Install RunLog*.
+- **Android (Chrome):** menu (three dots), *Add to home screen* or *Install app*.
+- **iPhone (Safari):** the Share button, *Add to Home Screen*.
 
-**Mac**
-
-1. Download [RunLog-Mac.zip](https://github.com/runlog-app/runlog/raw/main/RunLog-Mac.zip), open it, and move **RunLog.command** somewhere handy (Applications or the desktop).
-2. The first time, right-click it and choose **Open**, then **Open** again (macOS asks once because the file is new).
-3. After that, double-click it to update and open RunLog.
-
-**Just the file**
-
-Right-click [RunLog.html](https://github.com/runlog-app/runlog/raw/main/RunLog.html) and choose Save link as (on Android, long-press it and choose Download link), then open the saved file in Chrome or Edge. iPhone can't open a local HTML file.
+It updates itself: each time it opens with internet it loads the newest version. Once opened, it works offline too.
 
 ## RunLog Coach
 
-RunLog Coach is a second, free app that turns your RunLog data into a training plan toward your races: a few questions (run days, long-run day, gym days), then this week and next, day by day, with the reason for each session. It re-plans once a week from what you actually ran, and RunLog shows its plan on the My race tab without any upload. Every rule comes from published coaching practice (Daniels, Pfitzinger, Bosquet, Nielsen and others), listed in the app under "How this is worked out".
+**[runlog-app.github.io/runlog/coach](https://runlog-app.github.io/runlog/coach/)**
 
-The Windows installer puts a **RunLog Coach** icon next to RunLog. On a Mac, the zip holds **RunLog Coach.command** next to RunLog.command. Or save [Coach.html](https://github.com/runlog-app/runlog/raw/main/Coach.html) next to RunLog.html. Open both in the same browser on the same computer: the Coach reads RunLog's data there and never changes it.
+A second free app that turns your RunLog data into a training plan toward your races: a few questions (run days, long-run day, gym days), then this week and next, day by day, with the reason for each session. It re-plans once a week from what you actually ran. Because it sits on the same site, it reads your RunLog data in the same browser with no files to move, and RunLog shows its plan on the My race tab. Install it the same way; it gets its own icon. Every rule comes from published coaching practice (Daniels, Pfitzinger, Bosquet, Nielsen and others), listed in the app under "How this is worked out".
 
 ## Your data
 
-Everything you upload or type is saved in your browser on this computer, never sent anywhere. Updates never remove it. Use **Download my data** in RunLog now and then to keep a backup file; you can load it again on any computer.
+Everything you upload or type is saved in your browser on your device, never sent anywhere. Updates never remove it. RunLog asks the browser to keep it permanently (installing the app helps).
 
-Open RunLog in the same browser each time: Chrome and Edge each keep their own copy of your data. The desktop icon opens RunLog in the browser your computer uses for HTML files (Chrome or Edge), the same one a double-clicked RunLog.html opens in.
+**Back it up:** in RunLog, *Settings*, *Keep your data safe*. Pick a folder (OneDrive works well) and RunLog saves *RunLog backup.json* there by itself whenever something changes (Chrome and Edge on a computer). Or save a backup file by hand. *Restore from a backup file* brings everything back, on this or another computer, RunLog Coach's plan included.
+
+Phone and computer don't share data: save a backup on one and restore it on the other.
+
+## Used the old desktop icon?
+
+RunLog used to come with a desktop icon (*Install-RunLog.cmd*). That version is retired, because many work laptops block it. Click the old icon once more: it shows *RunLog has moved* with a button that brings all your data across to the web version. Then remove the old version with [Remove-old-RunLog-Windows.zip](https://github.com/runlog-app/runlog/raw/main/Remove-old-RunLog-Windows.zip) (open it, double-click *Remove-old-RunLog.cmd*) or on a Mac [Remove-old-RunLog-Mac.zip](https://github.com/runlog-app/runlog/raw/main/Remove-old-RunLog-Mac.zip) (right-click *Remove-old-RunLog.command*, Open). Everything goes to the Recycle Bin or Trash; it asks first whether your data has moved.
 
 ## Remove it
 
-Windows: delete the RunLog and RunLog Coach icons from the desktop and the Start menu, and the folder `%LOCALAPPDATA%\RunLog`. Mac: delete RunLog.command, RunLog Coach.command and `~/Library/Application Support/RunLog`. To remove your data as well, use **Delete all my data** in RunLog first.
+Use *Delete all my data* in RunLog (Update data screen), then uninstall the apps (in the app window's menu, *Uninstall*), or just stop opening the page.
 
 RunLog describes your data and RunLog Coach suggests training from it; neither is medical advice. Feeling ill or in pain? Rest, whatever the numbers say.

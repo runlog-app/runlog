@@ -8,7 +8,7 @@ A free running dashboard for your own running. Upload your Strava or Garmin expo
 
 Works in Chrome and Edge on any computer (work laptops too), and on Android and iPhone. To get an icon and its own window, install it:
 
-- **Computer (Chrome or Edge):** click the install icon at the right end of the address bar, or the browser's menu, then *Install RunLog*.
+- **Computer (Chrome or Edge):** click **Install** at the top of RunLog (or the install icon at the right end of the address bar). You get an icon on the desktop and in the Start menu.
 - **Android (Chrome):** menu (three dots), *Add to home screen* or *Install app*.
 - **iPhone (Safari):** the Share button, *Add to Home Screen*.
 

@@ -2,7 +2,7 @@
   "name": "RunLog Coach",
   "short_name": "Coach",
   "description": "A free training plan from your own RunLog data and established coaching practice. Your data stays on your device.",
-  "id": "./",
+  "id": "/runlog/coach/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "RunLog",
   "short_name": "RunLog",
   "description": "A free running dashboard: your fitness, race estimates, volume and consistency, from your own runs. Your data stays on your device.",
-  "id": "./",
+  "id": "/runlog/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
